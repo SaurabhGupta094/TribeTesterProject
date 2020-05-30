@@ -1,0 +1,19 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "BROWSERSTACK_USERNAME",
+  "key": "BROWSERSTACK_ACCESS_KEY",
+
+  "capabilities": {
+    "browserstack.debug": true,
+    "app": "bs://5550acb52030e744409091d356e117726fa752a"
+  },
+
+  "environments": {
+    "iPhone_7": {
+      "device": "iPhone 7"
+    },
+    "iPhone_7_Plus": {
+      "device": "iPhone 7 Plus"
+    }
+  }
+}

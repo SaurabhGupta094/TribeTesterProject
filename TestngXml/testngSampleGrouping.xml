@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <!-- Groups only having sanity smoke tests -->
+    <groups>
+        <run>
+            <include name="Sanity"/>
+            <include name="Smoke"/>
+            <include name="Regression"/>            
+        </run>
+    </groups>
+
+
+    <test name="Test for IOS">
+        <!--		<parameter name="os" value="ios"></parameter>-->
+        <packages>
+            <package name="tests.groupingSample">
+
+            </package>
+        </packages>
+    </test> <!-- Test -->
+
+    <test name="Test os Android">
+        <!--		<parameter name="os" value="android"></parameter>-->
+        <packages>
+            <package name="tests.groupingSample">
+
+            </package>
+        </packages>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

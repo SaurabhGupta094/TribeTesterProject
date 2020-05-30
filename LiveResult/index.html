@@ -1,0 +1,76 @@
+<html>
+
+<head>
+    <title>Live Test Result</title>
+    <link href="css/TestRunInfoStyle.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script data-main="./js/require/config" src="js/require/require.js"></script>
+    <meta http-equiv="refresh" content="3" />
+
+
+
+</head>
+
+<body>
+    <div class="navigationbar"></div>
+    <br>
+    <div class="top">Top</div>
+    <br>
+    <div class="body" align="center">
+        <div id="CompanyInformation">
+            <span class="companylogo"><img src="images/logo.png" width="100" height="35"></span>
+            <br></br>
+            <div class="companyTitle">Test Automation Live Result</div>
+        </div>
+        </br>
+        </br>
+
+        <button onClick="window.location.href=window.location.href">Refresh Page</button>
+        </br>
+
+        <table id="TestRun">
+            <tr>
+                <th>Total Test</th>
+                <th>Executed</th>
+                <th>Passed</th>
+                <th>Failed</th>
+                <th>Skipped</th>
+            </tr>
+            <tr>
+                <td id="TotalTestCount"></td>
+                <td id="ExecutedCount"></td>
+                <td id="PassedCount"></td>
+                <td id="FailedCount"></td>
+                <td id="SkippedCount"></td>
+            </tr>
+        </table>
+
+    </div>
+    </br>
+    <div class="TestResultClass" align="center">
+        <table id="TestResult">
+            <thead>
+                <tr>
+                    <th>SNo.</th>
+                    <th>Suite</th>
+                    <th>Test</th>
+                    <th>TestName</th>
+                    <th>Result</th>
+                    <th>ErrorMessage</th>
+                    <th>Duration</th>
+                </tr>
+            </thead>
+
+        </table>
+
+    </div>
+
+
+</body>
+
+
+<script src="jsonData.js"></script>
+<script src="js/loadJSON.js"></script>
+
+</html>

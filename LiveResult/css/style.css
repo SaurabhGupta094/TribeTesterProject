@@ -1,0 +1,15 @@
+#CompanyInformation {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 75%;
+    align-content: center;
+}
+
+.companyTitle {
+    font-size: 18px;
+}
+
+img.companylogo {
+    max-width: 100%;
+    height: auto;
+}

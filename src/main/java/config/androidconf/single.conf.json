@@ -1,0 +1,16 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "hasmukhpatel6",
+  "key": "pBRkpesnzsiqyzGxtHk3",
+
+  "capabilities": {
+    "browserstack.debug": true,
+    "app": "bs://1e2e17e766260305ed2da05999d8c5e38729bc94"
+  },
+
+  "environments": {
+    "galaxy_s7": {
+      "device": "Samsung Galaxy S9 Plus"
+    }
+  }
+}
